@@ -87,6 +87,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 button {
     font-family: inherit;
     cursor: pointer;
@@ -98,12 +99,15 @@ button {
 ::-webkit-scrollbar {
     width: 12px;
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: rgb(255, 255, 255, 0.3);
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background-color: rgb(255, 255, 255, 0.5);
 }
+
 ::-webkit-scrollbar-track {
     background-color: transparent;
 }
@@ -212,6 +216,7 @@ button {
     transition: opacity 0.5s ease;
     pointer-events: none;
 }
+
 #page-background.active {
     opacity: 1;
 }
@@ -248,6 +253,7 @@ button {
     align-items: center;
     justify-content: center;
 }
+
 .nav-btn:disabled {
     opacity: 0.5;
     cursor: not-allowed;
@@ -299,6 +305,7 @@ button {
     display: none;
     animation: fadeIn 0.3s ease;
 }
+
 .page.active {
     display: block;
 }
@@ -308,6 +315,7 @@ button {
         opacity: 0;
         transform: translateY(10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -326,6 +334,7 @@ button {
     color: #fff;
     cursor: pointer;
 }
+
 .section-title:hover {
     text-decoration: underline;
 }
@@ -352,6 +361,7 @@ button {
 .search-tab:hover {
     background-color: #333;
 }
+
 .search-tab.active {
     background-color: #fff;
     color: #000;
@@ -428,6 +438,7 @@ button {
     opacity: 1;
     transform: translateY(0);
 }
+
 .card-play-btn:hover {
     transform: scale(1.05) translateY(0);
     background-color: #1ed760;
@@ -473,6 +484,7 @@ button {
     object-fit: cover;
     border-radius: 4px;
 }
+
 .detail-header-image.artist {
     border-radius: 50%;
 }
@@ -545,9 +557,6 @@ button {
     mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 5v14l11-7z'/%3E%3C/svg%3E")
         no-repeat center;
     mask-size: contain;
-    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 5v14l11-7z'/%3E%3C/svg%3E")
-        no-repeat center;
-    mask-size: contain;
 }
 
 #play-artist-radio-btn svg {
@@ -565,6 +574,7 @@ button {
     font-size: 0.75rem;
     letter-spacing: 0.1em;
 }
+
 .btn-secondary:hover {
     border-color: #fff;
     transform: scale(1.04);
@@ -578,9 +588,11 @@ button {
     color: var(--muted);
     border: none;
 }
+
 .like-btn:hover {
     color: #fff;
 }
+
 .like-btn.active {
     color: var(--primary);
 }
@@ -625,6 +637,7 @@ button {
     gap: 16px;
     overflow: hidden;
 }
+
 .track-item-cover {
     width: 40px;
     height: 40px;
@@ -637,18 +650,22 @@ button {
     overflow: hidden;
     justify-content: center;
 }
+
 .track-item-details .title {
     color: #fff;
     font-size: 1rem;
     font-weight: 500;
 }
+
 .track-item.playing .title {
     color: var(--primary);
 }
+
 .track-item-details .artist {
     font-size: 0.875rem;
     color: var(--muted);
 }
+
 .track-item:hover .artist {
     color: #fff;
 }
@@ -684,21 +701,25 @@ button {
     align-items: center;
     gap: 14px;
 }
+
 .track-info .cover {
     width: 56px;
     height: 56px;
     border-radius: 4px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
 }
+
 .track-info .details .title {
     font-size: 0.875rem;
     font-weight: 500;
     color: #fff;
 }
+
 .track-info .details .artist {
     font-size: 0.6875rem;
     color: var(--muted);
 }
+
 .track-info .details .artist:hover {
     text-decoration: underline;
     color: #fff;
@@ -710,6 +731,7 @@ button {
     align-items: center;
     gap: 8px;
 }
+
 .player-controls .buttons {
     display: flex;
     align-items: center;
@@ -722,6 +744,7 @@ button {
     width: 32px;
     height: 32px;
 }
+
 .player-controls button:hover {
     color: #fff;
     background: transparent;
@@ -738,6 +761,7 @@ button {
     justify-content: center;
     transition: transform 0.2s;
 }
+
 .player-controls .play-pause-btn:hover {
     background-color: #fff;
     color: #000;
@@ -753,6 +777,7 @@ button {
     font-size: 0.6875rem;
     color: var(--muted);
 }
+
 .progress-bar {
     flex: 1;
     height: 4px;
@@ -761,11 +786,13 @@ button {
     position: relative;
     cursor: pointer;
 }
+
 .progress-bar .progress-fill {
     height: 100%;
     border-radius: 2px;
     background-color: #fff;
 }
+
 .progress-bar:hover .progress-fill {
     background-color: var(--primary);
 }
@@ -787,6 +814,7 @@ button {
     align-items: center;
     gap: 8px;
 }
+
 .volume-bar {
     width: 90px;
     height: 4px;
@@ -794,11 +822,13 @@ button {
     background-color: #4d4d4d;
     position: relative;
 }
+
 .volume-bar .volume-fill {
     height: 100%;
     background-color: #fff;
     border-radius: 2px;
 }
+
 .volume-bar:hover .volume-fill {
     background-color: var(--primary);
 }
@@ -818,10 +848,12 @@ button {
     justify-content: space-between;
     align-items: center;
 }
+
 .setting-item .label {
     font-weight: 700;
     color: #fff;
 }
+
 .setting-item .description {
     font-size: 0.875rem;
     color: var(--muted);
@@ -833,6 +865,7 @@ button {
     height: 24px;
     position: relative;
 }
+
 .slider {
     background-color: #535353;
     border-radius: 24px;
@@ -840,6 +873,7 @@ button {
     inset: 0;
     transition: 0.3s;
 }
+
 .slider::before {
     content: '';
     position: absolute;
@@ -851,9 +885,11 @@ button {
     border-radius: 50%;
     transition: 0.3s;
 }
+
 input:checked + .slider {
     background-color: var(--primary);
 }
+
 input:checked + .slider::before {
     transform: translateX(16px);
 }
@@ -867,11 +903,13 @@ input:checked + .slider::before {
     border-radius: 8px;
     padding: 32px;
 }
+
 .modal h3 {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
 }
+
 .template-input {
     background-color: #3e3e3e;
     border: none;
@@ -888,12 +926,14 @@ input:checked + .slider::before {
     box-shadow: 0 16px 24px rgb(0, 0, 0, 0.3);
     padding: 4px;
 }
+
 #context-menu li {
     padding: 10px 12px;
     color: #e0e0e0;
     font-size: 0.875rem;
     border-radius: 2px;
 }
+
 #context-menu li:hover {
     background-color: #3e3e3e;
     color: #fff;
@@ -903,6 +943,7 @@ input:checked + .slider::before {
 .mobile-only {
     display: none !important;
 }
+
 .desktop-only {
     display: flex !important;
 }
@@ -923,6 +964,7 @@ input:checked + .slider::before {
         transform: translateX(-100%);
         transition: transform 0.3s;
     }
+
     .sidebar.is-open {
         transform: translateX(0);
     }
@@ -939,6 +981,7 @@ input:checked + .slider::before {
         padding: 16px;
         flex-wrap: wrap;
     }
+
     .search-bar {
         width: 100%;
         order: 3;
@@ -968,6 +1011,7 @@ input:checked + .slider::before {
     .mobile-only {
         display: flex !important;
     }
+
     .desktop-only {
         display: none !important;
     }
@@ -976,18 +1020,22 @@ input:checked + .slider::before {
         gap: 16px;
         grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     }
+
     .detail-header {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
+
     .detail-header-image {
         width: 180px;
         height: 180px;
     }
+
     .detail-header-info .title {
         font-size: 2rem;
     }
+
     .detail-header-actions {
         justify-content: center;
     }
